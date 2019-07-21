@@ -39,6 +39,7 @@ Adressraum / Seitengröße
 log2(1024) = 10 Bit 
 virtuelle Adresse - Seitenoffset = Seitennummern
 24 Bit - 10 Bit = 14 Bit seitennummer
+Der TLB vergleicht alle Einträge gleichzeit, also 8 * 14 Bit = 112 Bit
 
 *d)* wieviele bits braucht die Rahmennummer = ld(2048) = 11
 

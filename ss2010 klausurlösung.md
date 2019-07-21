@@ -3,34 +3,31 @@
 2. > ???
 3. nein
 4. ja
-5. 
-6. 
+5. nein
+6. nein
 
 # Aufgabe 2
 *a)* 
     16 KiB: Offset = log2(16 * 1024) = 14 Bit -> 42 Bit für Seitennummer = 
-> ??? 
         Einträge: 2^42
         Größe: 2^42 * 4 Byte = 16384 GiB
 
     256 KiB: Offset = log2(256 * 1024) = 18 Bit -> 38 Bit für Seitennummer = 
-> ??? 
-        Einträge: 2^36
-        Größe: 2^36 * 4 Byte
+        Einträge: 2^38
+        Größe: 2^38 * 4 Byte = 1024 GiB
 
     4 MiB: Offset = log2(4 * 1024 * 1024) = 22 Bit -> 34 Bit für Seitennummer = 
-> ??? 
         Einträge:
-        Größe:
+        Größe: 2^34 * 4 Byte = 64 GiB
 *b)* 
 
 # Aufgabe 3
-1. > ???
+1. nein
 2. nein
-3. ja
-4. ja
-5. nein
-6. > ???
+3. nein
+4. Ja
+5. Nein
+6. Ja
 
 # Aufgabe 4
 *a)* 7,0,1,4,3,0 = 6 Seitenfehler 
@@ -65,4 +62,4 @@
 Pro Block können (8 KiB / 4 Byte) = 2048 Blocknummern gespeichert werden
 *a)* 10 * 8 KiB = 80 KiB = 81920 Byte = 80 KiB
 *b)* (2 * 2048 * 8 KiB) = 33554432 -> 33554432 + 81920 Byte = 33636352 Byte = 32848 KiB
-*c)* (2048 * 2048 * 8192 Byte) = 34359738368 Byte -> 34359738368 Byte + 33636352 Byte = 34393374720 Byte = 33587280 KiB = 
+*c)* (2048 * 2048 * 8192 Byte) = 34359738368 Byte -> 34359738368 Byte + 33636352 Byte = 34393374720 Byte = 33587280 KiB

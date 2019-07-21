@@ -15,12 +15,28 @@
 6. nein
 
 # Aufgbe 3
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
 
 # Aufgbe 4
+*a)*
+*b)*
 
 # Aufgbe 5
+*a)*
+*b)*
 
 # Aufgbe 6
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
 
 # Aufgbe 7
 
