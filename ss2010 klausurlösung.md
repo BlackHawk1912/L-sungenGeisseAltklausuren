@@ -20,6 +20,10 @@
         Einträge:
         Größe: 2^34 * 4 Byte = 64 GiB
 *b)* 
+    64 MiB / 4 Byte = 64 * 1024 * 1024 Byte / 4 Byte = 67108864 -> log2(67108864) = 24; 56 - 24 = 32 Bit für den Offset = 4294967296  Byte = 4 GiB
+    log2(4 * 1024 * 1024 * 1024) = 32 Bit -> 24 Bit für die Seitennummer =
+        Einträge: 2^24
+        Größe: 2^24 * 4 Byte = 64 MiB
 
 # Aufgabe 3
 1. nein
