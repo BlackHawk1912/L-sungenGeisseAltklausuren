@@ -61,5 +61,5 @@
 # Aufgabe 5
 Pro Block können (8 KiB / 4 Byte) = 2048 Blocknummern gespeichert werden
 *a)* 10 * 8 KiB = 80 KiB = 81920 Byte = 80 KiB
-*b)* (2 * 2048 * 8 KiB) = 33554432 -> 33554432 + 81920 Byte = 33636352 Byte = 32848 KiB
+*b)* (2 * 2048 * 8192 Byte) = 33554432 Byte -> 33554432 Byte + 81920 Byte = 33636352 Byte = 32848 KiB
 *c)* (2048 * 2048 * 8192 Byte) = 34359738368 Byte -> 34359738368 Byte + 33636352 Byte = 34393374720 Byte = 33587280 KiB
