@@ -21,7 +21,8 @@
         Größe: 2^34 * 4 Byte = 64 GiB
 *b)* 
     64 MiB / 4 Byte = 64 * 1024 * 1024 Byte / 4 Byte = 67108864 -> log2(67108864) = 24; 56 - 24 = 32 Bit für den Offset = 4294967296  Byte = 4 GiB
-    log2(4 * 1024 * 1024 * 1024) = 32 Bit -> 24 Bit für die Seitennummer =
+    
+    Beweis: log2(4 * 1024 * 1024 * 1024) = 32 Bit -> 24 Bit für die Seitennummer =
         Einträge: 2^24
         Größe: 2^24 * 4 Byte = 64 MiB
 
@@ -34,7 +35,7 @@
 6. Ja
 
 # Aufgabe 4
-*a)* 7,0,1,4,3,0 = 6 Seitenfehler 
+*a)* 7,0,1,4,3,0 = 6 Seitenfehler + 3 Seitenfehler zu Beginn = 9 Seitenfehler
     Fifo:
        0 1 2
     7| 7 - - 
@@ -49,7 +50,7 @@
     3| 4 2 3
 
 *b)* 
-    LRU: 7,1,2,3,0 = 5 Seitenfehler
+    LRU: 7,1,2,3,0 = 5 Seitenfehler + 3 Seitenfehler zu Beginn = 8 Seitenfehler
        0 1 2
     7| 7 - - | 7LRU
     0| 7 0 - | 7LRU
@@ -61,6 +62,7 @@
     4| 4 0 3 | 3LRU
     2| 4 0 2 | 0LRU
     3| 4 3 2 | 4LRU
+    Quelle für diese Aufgabe mit Lösung hier: https://www.youtube.com/watch?v=4wVp97-uqr0, das beweist die Korrektheit
 
 # Aufgabe 5
 Pro Block können (8 KiB / 4 Byte) = 2048 Blocknummern gespeichert werden
