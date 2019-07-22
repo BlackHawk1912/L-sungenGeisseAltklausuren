@@ -14,6 +14,22 @@
 13. nein
 14. nein
 
+Lukas:
+1. nein 
+2. nein
+3. ja
+4. nein
+5. ja
+6. ja
+7. nein
+8. ja
+9. nein
+x10. ja
+11. ja
+12. ja
+13. nein
+14. ja
+
 # Aufgabe 2 
 Zeitscheibe = Quantum
 Bei einem kleinem Quantum werden Prozesse schneller gewechselt weil die Interupts schneller erfolgen
@@ -72,6 +88,6 @@ Offset = 9
 *a)* 1 KiB / 4 Byte = 1024 / 4 = 256 Blocknummern
 *b)* 256 * 1024 Byte = 256 KiB
 *c)* 256 * 256 * 1024 Byte = 67108864 Byte = 65536 KiB = 64 MiB
-*d)* kein doppelt indirekter, 4 einfach indirekte (und 12 direkte ???)
-*e)* ein doppelt indirekter, acht einfach indirekte (und 3 direkte ???)
-*f)* 16 doppelt indirekte Blöcke, keine einfach indirekte, keine direkten
+*d)* 12 direkte, 4 einfach indirekte und kein doppelt indirekter 
+*e)* 7 direkte, 8 einfach indirekte und ein doppelt indirekter 
+*f)* keine direkten, keine einfach indirekte, 16 doppelt indirekte Blöcke
