@@ -8,27 +8,11 @@
 7. nein
 8. ja
 9. nein
-10. nein
+10. ja
 11. ja
 12. ja
 13. nein
 14. nein
-
-Lukas:
-1. nein 
-2. nein
-3. ja
-4. nein
-5. ja
-6. ja
-7. nein
-8. ja
-9. nein
-x10. ja
-11. ja
-12. ja
-13. nein
-14. ja
 
 # Aufgabe 2 
 Zeitscheibe = Quantum
