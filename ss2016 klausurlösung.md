@@ -6,9 +6,9 @@
 5. ja
 6. ja
 7. nein
-8. ja
-9. nein
-10. ja
+8. nein
+9. ja
+10. nein
 11. ja
 12. ja
 13. nein
