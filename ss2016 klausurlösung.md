@@ -1,7 +1,7 @@
 # Aufgabe 1
 1. ja
 2. > ??? nein 
-3. > ??? ja
+3. > ??? nein
 4. nein
 5. ja
 6. ja

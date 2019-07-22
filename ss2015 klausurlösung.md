@@ -22,33 +22,9 @@ Nein, sie gehören nicht zum Prozesskontekt, müssen aber trotzdem beim Kontextw
     0x227E = 0010 0010 0111 1110 -> 0001 0001 0011 -> 0x113 -> 0x66 = 0110 0110 -> 1100 1101 1110 = 0xCDE
 
 # Aufgabe 4
-*a)* Wenn A und B die selbe Datei öffnen.
-    ...
-    FILE *a;
-    pid = fork()
-    if (pid == 0) { // Prozess B
-        a = fopen(test.img);
-    } else { //Prozess A
-        a = fopen(test.img);
-    }
-    ...
-
-*b)* Also wenn A und B die gleiche Datei öffnen aber an verschiedenen Positionen lesen
-    ...
-    FILE *a = fopen(test.img);
-    pid = fork()
-    if (pid == 0) { // Prozess B
-        stelle = fseek(a+5);
-    } else { //Prozess A
-        stelle = fseek(a+23);
-    }
-    ...
-
-*c)* Also wenn der Prozess die gleiche Datei zweimal öffnet.
-    ...
-    FILE *a = fopen(test.img);
-    FILE *b = fopen(test.img);
-    ...
+*a)* Wenn eine Datei geöffnet wird und dann der fork() gemacht wird. 
+*b)* Z.B wenn nach dem fork() A eine Datei öffnet und B dieselbe Datei öffnet.
+*c)* Wenn der Prozess die gleiche Datei zweimal öffnet indem er eine bereits geöffnete mit dup() dupliziert.
 
 # Aufgabe 5
 *a)* 64 MiB / 1 KiB = 64 * 1024 / 1 = 65536 Blöcke
