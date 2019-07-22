@@ -1,10 +1,10 @@
 # Aufgabe 1
-1. ja ?
-2. > ??? nein
-3. ja ✓
-4. > ??? ja
-5. ja ✓
-6. > ??? nein 
+1. ja 
+2. nein
+3. ja
+4. ja
+5. ja
+6. nein
 
 # Aufgabe 2
 *a)*
@@ -35,17 +35,17 @@
     2^17 = 131072 Byte = 128 KByte = Seitengröße
 
 # Aufgabe 3
-1. Nein ✓
-2. > ??? ja
-3. > ??? ja
-4. ja ?
-5. nein ✓
-6. ja ✓
+1. nein
+2. ja
+3. ja
+4. nein
+5. nein
+6. ja
 
 # Aufgabe 4
 *a)* Ein Zombie ist ein Prozess, der bereits terminiert ist aber noch in der Prozesstabelle auftaucht. Dies passiert wenn der Vaterprozess noch läuft, das Kind aber schon terminiert hat. Er verschwindet wenn der Vater ein wait() ausführt oder selbst terminiert.
 
-*b)* Ein Waise ist ein Prozess, dessen Vaterprozess bereits terminiert hat, er aber noch läuft. Er wird von Prozess mit der PID 0 "adoptiert".
+*b)* Ein Waise ist ein Prozess, dessen Vaterprozess bereits terminiert hat, er aber noch läuft. Er verschwindet wenn er vom init Prozess mit der PID 1 "adoptiert" wurde.
 
 # Aufgabe 5 
 Pro Block können (512 Bytes / 4 Bytes) Blöcke gespeichert werden = 128 Blöcke 
