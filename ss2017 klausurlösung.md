@@ -50,7 +50,7 @@ Der TLB vergleicht alle Einträge gleichzeit, also 8 * 14 Bit = 112 Bit
     Seitennummer = 0x0798 -> Rahmennummer = 0x6DE 
     0x6DE =
     110.1101.1110 + 11.1011.1011
-    Pyhysikalische adresse = 1.1011.0111.1011.1011.1011 = 0x1B7BB
+    Pyhysikalische adresse = 1.1011.0111.1011.1011.1011 = 0x1B7BBB
     
 0xDA14F0
     1101.1010.0001.01 00.1111.0000
