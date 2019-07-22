@@ -30,7 +30,7 @@
 6. Ja
 
 # Aufgabe 4
-*a)* 7,0,1,4,3,0 = 6 Seitenfehler 
+*a)* 7,0,1,4,3,0 = 6 Seitenfehler + 3 Seitenfehler zu beginn = 9 Seitenfehler
     Fifo:
        0 1 2
     7| 7 - - 
@@ -45,7 +45,7 @@
     3| 4 2 3
 
 *b)* 
-    LRU: 7,1,2,3,0 = 5 Seitenfehler
+    LRU: 7,1,2,3,0 = 5 Seitenfehler + 3 Seitenfehler zu beginn = 8 Seitenfehler
        0 1 2
     7| 7 - - | 7LRU
     0| 7 0 - | 7LRU
