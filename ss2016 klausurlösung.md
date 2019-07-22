@@ -1,17 +1,17 @@
 # Aufgabe 1
 1. ja
-2. nein
-3. ja
+2. > ??? nein 
+3. > ??? ja
 4. nein
 5. ja
 6. ja
-7. ja
-8. nein
-9. ja
-10. > ???
-11. > ???
-12. > ???
-13. > ???
+7. nein
+8. ja
+9. nein
+10. nein
+11. ja
+12. ja
+13. nein
 14. nein
 
 # Aufgabe 2 
